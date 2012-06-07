@@ -1,0 +1,6 @@
+# Directories
+/node_modules
+
+# NPM
+/npm-debug.log
+/npm-shrinkwrap.json
