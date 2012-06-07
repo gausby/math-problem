@@ -4,26 +4,26 @@ I saw this problem posted on facebook:
 
   > This problem can be solved by pre-school children in 5-10 minutes, by programer - in 1 hour, by people with higher education ... well, check it yourself! :)
   >
-  > 8809=6
-  > 7111=0
-  > 2172=0
-  > 6666=4
-  > 1111=0
-  > 3213=0
-  > 7662=2
-  > 9313=1
-  > 0000=4
-  > 2222=0
-  > 3333=0
-  > 5555=0
-  > 8193=3
-  > 8096=5
-  > 7777=0
-  > 9999=4
-  > 7756=1
-  > 6855=3
-  > 9881=5
-  > 5531=0
+  > 8809=6, 
+  > 7111=0, 
+  > 2172=0, 
+  > 6666=4, 
+  > 1111=0, 
+  > 3213=0, 
+  > 7662=2, 
+  > 9313=1, 
+  > 0000=4, 
+  > 2222=0, 
+  > 3333=0, 
+  > 5555=0, 
+  > 8193=3, 
+  > 8096=5, 
+  > 7777=0, 
+  > 9999=4, 
+  > 7756=1, 
+  > 6855=3, 
+  > 9881=5, 
+  > 5531=0, 
   > 2581=?
 
 It took me about an hour to solve because I had to set up unit tests.
