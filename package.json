@@ -1,12 +1,12 @@
 {
     "private": "true",
-    "name": "problem",
-    "version": "0.0.1",
+    "name": "math-problem",
+    "version": "0.9.0",
     "description": "A solution to the math problem that preschool children can solve within minutes, programmers within hours (because they have to set up unit tests) (This is a joke).",
     "author": "Martin Gausby <martin@gausby.dk>",
-    "repository": "git@github.com:gausby/problem.git",
+    "repository": "git://github.com/gausby/math-problem.git",
     "bugs": {
-        "url" : "http://github.com/gausby/problem/issues",
+        "url" : "https://github.com/gausby/math-problem/issues",
         "email" : "martin@gausby.dk"
     },
     "dependencies": {
@@ -14,7 +14,7 @@
     "devDependencies": {
         "buster": ">= 0.5.3"
     },
-    "main": "lib/problem.js",
+    "main": "lib/solve.js",
     "scripts": {
         "start": "rlwrap node repl.js",
         "test": "./node_modules/buster/bin/buster test",

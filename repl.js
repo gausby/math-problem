@@ -1,7 +1,7 @@
 /* global require */
 var repl = require('repl')
-,   problem = require('./lib/problem')
+,   solve = require('./lib/solve')
 ;
 
 var local = repl.start('> ');
-local.context.problem = problem;
+local.context.solve = solve;

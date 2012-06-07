@@ -35,6 +35,13 @@ Requirements: *node.js*, *NPM* and the awesome unit test framework *'buster'*, w
 
 Clone the repository and run a `npm install` in the root of the project. Then run a `npm test`. It should pass without any errors.
 
+Now start the program by running a `npm start`. It will throw you into a REPL where you can solve to problem by typing:
+
+    > solve(2581);
+    2
+
+Oh yeah, btw...**Spoiler alert!**.
+
 
 ## Caveats
 
