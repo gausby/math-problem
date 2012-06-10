@@ -52,6 +52,6 @@ Oh yeah, btw...**Spoiler alert!**.
 
 Sort of beerwear license.
 
-You may use it for anything you want. If you like it, and we meet in person, you can by me a beer, whatever. Oh yeah, don't blame me if your computer catches on fire.
+You may use it for anything you want. If you like it, and we meet in person, you can buy me a beer, whatever. Oh yeah, don't blame me if your computer catches on fire.
 
 P.S. I love you.
