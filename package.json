@@ -1,7 +1,7 @@
 {
     "private": "true",
     "name": "math-problem",
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "A solution to the math problem that preschool children can solve within minutes, programmers within hours (because they have to set up unit tests) (This is a joke).",
     "author": "Martin Gausby <martin@gausby.dk>",
     "repository": "git://github.com/gausby/math-problem.git",
@@ -12,14 +12,20 @@
     "dependencies": {
     },
     "devDependencies": {
-        "buster": ">= 0.5.3"
+        "grunt": ">= 0.4.0rc7",
+        "grunt-buster": ">= 0.1.2",
+        "grunt-contrib-jshint": ">= 0.1.0",
+        "grunt-contrib-watch": ">= 0.2.0rc7",
+        "grunt-clear": ">= 0.1.2",
+        "grunt-contrib-yuidoc": ">= 0.3.2",
+        "grunt-connect": ">= 0.2.0",
+
+        "buster": ">= 0.6.12"
     },
     "main": "lib/solve.js",
     "scripts": {
-        "start": "rlwrap node repl.js",
-        "test": "./node_modules/buster/bin/buster test",
-        "test-runner": "./node_modules/buster/bin/buster autotest",
-        "prepublish": "npm install && ./node_modules/buster/bin/buster test"
+        "start": "node repl.js",
+        "test": "grunt test"
     },
     "engine": "node 0.6.17"
 }

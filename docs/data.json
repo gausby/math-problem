@@ -1,0 +1,56 @@
+{
+    "project": {
+        "name": "math-problem",
+        "description": "A solution to the math problem that preschool children can solve within minutes, programmers within hours (because they have to set up unit tests) (This is a joke).",
+        "version": "0.9.1",
+        "url": ""
+    },
+    "files": {
+        "lib/solve.js": {
+            "name": "lib/solve.js",
+            "modules": {},
+            "classes": {
+                "math-problem": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "math-problem": {
+            "name": "math-problem",
+            "shortname": "math-problem",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "lib/solve.js",
+            "line": 4
+        }
+    },
+    "classitems": [
+        {
+            "file": "lib/solve.js",
+            "line": 9,
+            "description": "A function that solves the problem posted on facebook and other places",
+            "itemtype": "method",
+            "name": "solve",
+            "static": 1,
+            "params": [
+                {
+                    "name": "input",
+                    "description": "The problem to solve",
+                    "type": "String|number"
+                }
+            ],
+            "return": {
+                "description": "the answer to the problem",
+                "type": "Number"
+            },
+            "class": "math-problem"
+        }
+    ],
+    "warnings": []
+}
